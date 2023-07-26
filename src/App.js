@@ -1,7 +1,7 @@
 
 import './App.css';
 import HomePage from './screens/Home';
-import { indexPattern, loginPattern } from './routes';
+import { browsePattern, indexPattern, loginPattern } from './routes';
 import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
 import Login from './screens/signin';
 
@@ -16,6 +16,9 @@ function App() {
       </Routes>
       <Routes>
         <Route exact path={loginPattern} element={<Login/>} />
+      </Routes>
+      <Routes>
+        <Route exact path={browsePattern} element={<Login/>} />
       </Routes>
     </Router>
     </div>

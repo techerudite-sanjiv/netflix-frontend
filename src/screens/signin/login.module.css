@@ -1,9 +1,12 @@
 .login-form {
-    width: 45%;
+    width: 40%;
     margin: 0 auto;
-    padding: 80px 0 80px 0;
+    padding: 10px 0 50px 0;
     border-radius: 5px;
-    background: rgba(14, 11, 11, 0.948);
+    background: #0e0b0bc6;
+    position: absolute;
+    top: 15%;
+    left: 27%;
 }
 
 .form-group {
@@ -54,7 +57,7 @@ label {
     color: #ffffff;
     font-weight: 300;
 }
-        
+
 .custom-checkbox input {
     position: absolute;
     opacity: 0;
@@ -117,11 +120,21 @@ label {
 @media only screen and (max-width: 768px) {
     .login-form {
         width: 100%;
+        position: absolute;
+        top: 7%;
+        left: 0;
     }
 
     .form-group {
         padding: 0 10px;
         margin-bottom: 15px;
+    }
+    .login-form {
+        /* width: 100%;
+        margin: 0 auto;
+        padding: 80px 0 80px 0;
+        border-radius: 5px; */
+        background: rgba(0, 0, 0, 0.948);
     }
 }
 
