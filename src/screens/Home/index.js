@@ -47,7 +47,7 @@ const HomePage = () => {
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
            </div>
 
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className={cn(styles["login_form"])}>
               <div className={cn(styles["home_form_box"])}>
                 <input type="email" name="" placeholder="Email Address" />
                 <button>Get Started  </button>

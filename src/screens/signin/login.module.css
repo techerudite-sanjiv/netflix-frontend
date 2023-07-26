@@ -1,0 +1,149 @@
+.login-form {
+    width: 45%;
+    margin: 0 auto;
+    padding: 80px 0 80px 0;
+    border-radius: 5px;
+    background: rgba(14, 11, 11, 0.948);
+}
+
+.form-group {
+    padding: 0 100px;
+    margin-bottom: 15px;
+}
+
+.form-group h2 {
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.form-group input::after {
+    border: 0;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.custom-checkbox {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+}
+        
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    background-color: #fff;
+    /* border: 2px solid #000; */
+}
+
+.custom-checkbox input:checked~.checkmark:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.need_help {
+    color: #fff;
+    font-size: 13px;
+}
+
+.login_base_content {
+    padding: 50px 100px;
+    margin-bottom: 15px;
+    color: #a9a8a8;
+    font-size: 14px;
+}
+
+.sign_up {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 992px) {
+    .login-form {
+        width: 70%;
+    }
+
+    .form-group {
+        padding: 0 50px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form {
+        width: 100%;
+    }
+
+    .form-group {
+        padding: 0 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .login-form {
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px 0 80px 0;
+        border-radius: 5px;
+        background: rgba(14, 11, 11, 0.948);
+    }
+
+    .form-group {
+        padding: 0 10px;
+        margin-bottom: 15px;
+    }
+
+    .login_base_content {
+        padding: 10px;
+        margin-bottom: 15px;
+        color: #a9a8a8;
+        font-size: 14px;
+    }
+
+}
