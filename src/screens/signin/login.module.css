@@ -1,12 +1,27 @@
 .login-form {
     width: 40%;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px 0 50px 0;
     border-radius: 5px;
     background: #0e0b0bc6;
     position: absolute;
     top: 15%;
     left: 27%;
+}
+
+.netflix_sign_logo img {
+    width: 220px;
+    cursor: pointer;
+}
+
+.login_background_image img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.netflix_sign_logo {
+    position: absolute;
+    top: 0;
 }
 
 .form-group {
@@ -45,7 +60,6 @@ label {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 .custom-checkbox {
@@ -72,7 +86,7 @@ label {
     width: 16px;
     border-radius: 2px;
     background-color: #fff;
-    /* border: 2px solid #000; */
+
 }
 
 .custom-checkbox input:checked~.checkmark:after {
@@ -109,6 +123,9 @@ label {
 @media only screen and (max-width: 992px) {
     .login-form {
         width: 70%;
+        position: absolute;
+    /* top: 25%; */
+    left: 15%;
     }
 
     .form-group {
@@ -121,30 +138,33 @@ label {
     .login-form {
         width: 100%;
         position: absolute;
-        top: 7%;
+        top: 13%;
         left: 0;
+    }
+
+    .netflix_sign_logo {
+        width: 100%;
+        margin: 0;
+
+        background: black
     }
 
     .form-group {
         padding: 0 10px;
         margin-bottom: 15px;
     }
+
     .login-form {
-        /* width: 100%;
-        margin: 0 auto;
-        padding: 80px 0 80px 0;
-        border-radius: 5px; */
-        background: rgba(0, 0, 0, 0.948);
+        background: #000000f2;
     }
 }
 
 @media only screen and (max-width: 576px) {
     .login-form {
         width: 100%;
-        margin: 0 auto;
-        padding: 80px 0 80px 0;
-        border-radius: 5px;
-        background: rgba(14, 11, 11, 0.948);
+        /* margin: -25px auto; */
+        border-radius: 10px;
+        background: #0e0b0b;
     }
 
     .form-group {
@@ -158,5 +178,9 @@ label {
         color: #a9a8a8;
         font-size: 14px;
     }
-
+    .netflix_sign_logo img {
+        width: 180px;
+        cursor: pointer;
+    }
+    
 }

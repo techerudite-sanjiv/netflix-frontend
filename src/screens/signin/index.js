@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import cn from "classnames"
 import styles from "./login.module.css"
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import HomePage from '../Home'
+import home_image from "../../assets/home_image_netflix.jpg";
+import logo from "../../assets/netflix_logo.png";
+import { indexPattern } from '../../routes'
 
 const Login = () => {
-
-    const location = useLocation().pathname
+    const navigate=useNavigate();
+    const location = useLocation().pathname;
+    
 
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -28,8 +32,16 @@ const Login = () => {
 
     return (
       <>
-        <HomePage screenWidth={screenWidth} loginPath={location}/>
+      {screenWidth<768 ?null :  <div className={cn(styles["login_background_image"])}>
+          <img src={home_image} alt="" />
+        </div>}
+
+        <div className={cn(styles["netflix_sign_logo"])}>
+               <img src={logo} alt=""  onClick={()=>navigate(indexPattern)} className="ps-5"/>
+            </div>
+
         <div className={cn(styles["login-form"])}>
+      
             <form onSubmit={handleSubmit}>
                 <div className={cn(styles["form-group"])}>
                     <h2>Sign In</h2>
@@ -71,7 +83,7 @@ const Login = () => {
             <div className={cn(styles["login_base_content"])}>
                 <div className='mb-2'>
                     <span>New to Netflix? </span>
-                    <Link className={cn(styles["sign_up"])}>Sign up now.</Link>
+                    <Link className={cn(styles["sign_up"])} to="/" >Sign up now.</Link>
                 </div>
                 <div>
                     This page is protected by Google reCAPTCHA to ensure you're not a bot.<Link> Learn more.</Link>

@@ -8,15 +8,15 @@ import Card from "../../components/card";
 import Border from "../../components/border";
 import Footer from "../../components/footer";
 import RightArrow from "../../components/RightArrow";
-import { useLocation } from "react-router";
+import { useLocation, useNavigate } from "react-router";
+import { indexPattern, loginPattern } from "../../routes";
 
 
 
 const HomePage = ({screenWidth,loginPath}) => {
 
   const location=useLocation().pathname
-
-  console.log(location,"i ma ")
+  const navigate=useNavigate()
 
   const handleSubmit = () => {
 
@@ -25,14 +25,14 @@ console.log(loginPath,'i am login path')
   return (
     <>
       <div>
-        {(screenWidth<768 && loginPath==="/login") ? null: <div className={cn(styles["navbar_attach_image"])}>
+       <div className={cn(styles["navbar_attach_image"])}>
           <img src={home_image} alt="" />
-        </div>}
+        </div>
 
         <div className={cn(styles["home_banner"],"")}>
           <div className={cn(styles["banner_content"],"")}>
             <div className={cn(styles["netflix_logo"])}>
-              <img src={logo} alt="" />
+              <img src={logo} alt="" onClick={()=>navigate(indexPattern)} />
             </div>
             <div className={cn(styles["banner_text"])}>
              {location==="/" && <>
@@ -42,7 +42,7 @@ console.log(loginPath,'i am login path')
                   <option value="1">Hindi</option>
                 </select>
               </div>
-              <CustomButton label={"Sign in"} backcolor={"red"} color={"#fff"} />
+              <CustomButton label={"Sign in"} backcolor={"red"} color={"#fff"} onClick={()=>navigate(loginPattern)} />
              </>}
             </div>
           </div>

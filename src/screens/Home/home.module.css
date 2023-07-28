@@ -17,6 +17,7 @@
 
 .netflix_logo img {
   width: 180px;
+  cursor: pointer;
 }
 
 .netflix_text {
@@ -141,13 +142,7 @@
     font-size: 20px;
   }
 
-  .banner_content {
-    background: #000000;
-  }
-
-  .home_banner {
-    background-color: #000000;
-  }
+  
 }
 
 @media only screen and (max-width: 768px) {
