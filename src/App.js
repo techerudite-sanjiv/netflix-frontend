@@ -4,6 +4,7 @@ import HomePage from './screens/Home';
 import { browsePattern, indexPattern, loginPattern } from './routes';
 import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
 import Login from './screens/signin';
+import MovieDashboard from './screens/Dashboard';
 
 
 
@@ -18,7 +19,7 @@ function App() {
         <Route exact path={loginPattern} element={<Login/>} />
       </Routes>
       <Routes>
-        <Route exact path={browsePattern} element={<Login/>} />
+        <Route exact path={browsePattern} element={<MovieDashboard/>} />
       </Routes>
     </Router>
     </div>
