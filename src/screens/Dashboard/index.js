@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from '../../components/header'
 
 const MovieDashboard = () => {
   return (
-    <div>MovieDashboard</div>
+    <div><Header/></div>
   )
 }
 

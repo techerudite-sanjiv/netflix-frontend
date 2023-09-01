@@ -1,196 +1,196 @@
- 
- 
- .sign_in_page{
-    background: #000000;
-    background-image: url("data:image/jpeg;base64,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");
+.sign_in_page {
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(70%);
+    background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+
 }
 .netflix_sign_logo img {
-    width: 220px;
-    cursor: pointer;
-    /* position: relative; */
-    /* z-index: -1; */
+  width: 220px;
+  cursor: pointer;
 }
 
 .login-form {
-    width: 40%;
-    margin: auto;
-    padding: 10px 0 50px 0;
-    border-radius: 5px;
-    background: #0e0b0bc6;
-    position: absolute;
-    top: 15%;
-    left: 27%;
+  width: 40%;
+  margin: auto;
+  padding: 10px 0 50px 0;
+  border-radius: 5px;
+  background: #0e0b0bc6;
+  position: absolute;
+  top: 15%;
+  left: 27%;
 }
 
-
-
-
-
 .login_background_image img {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .netflix_sign_logo {
-    position: absolute;
-    top: 0;
+  position: absolute;
+  top: 0;
 }
 
 .form-group {
-    padding: 0 100px;
-    margin-bottom: 15px;
+  padding: 0 100px;
+  margin-bottom: 15px;
 }
 
 .form-group h2 {
-    color: #fff;
+  color: #fff;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .form-group input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 0;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 0;
+  
+  border-radius: 5px;
 }
 
 .form-group input::after {
-    border: 0;
+  border: 0;
 }
 
 .form-group button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .custom-checkbox {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    font-size: 13px;
-    color: #ffffff;
-    font-weight: 300;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 300;
 }
 
 .custom-checkbox input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  filter: brightness(100%);
 }
 
 .checkmark {
-    position: absolute;
-    top: 2px;
-    left: 0;
-    height: 16px;
-    width: 16px;
-    border-radius: 2px;
-    background-color: #fff;
-
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  background-color: #fff;
 }
 
-.custom-checkbox input:checked~.checkmark:after {
-    content: "";
-    position: absolute;
-    display: block;
-    left: 5px;
-    top: 2px;
-    width: 6px;
-    height: 10px;
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
+.custom-checkbox input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
 .need_help {
-    color: #fff;
-    font-size: 13px;
+  color: #fff;
+  font-size: 13px;
 }
 
 .login_base_content {
-    padding: 50px 100px;
-    margin-bottom: 15px;
-    color: #a9a8a8;
-    font-size: 14px;
+  padding: 50px 100px;
+  margin-bottom: 15px;
+  color: #a9a8a8;
+  font-size: 14px;
 }
 
 .sign_up {
-    color: #fff;
-    font-size: 16px;
+  color: #fff;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 992px) {
-    .login-form {
-        width: 70%;
-        position: absolute;
+  .login-form {
+    width: 70%;
+    position: absolute;
     left: 15%;
-    }
+  }
 
-    .form-group {
-        padding: 0 50px;
-        margin-bottom: 15px;
-    }
+  .form-group {
+    padding: 0 50px;
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .login-form {
-        width: 100%;
-        position: absolute;
-        top: 13%;
-        left: 0;
-    }
+  .sign_in_page {
+    background: #000000;
+    filter: brightness(100%);
+    height: 100vh;
+  }
+  .login-form {
+    width: 100%;
+    position: absolute;
+    top: 13%;
+    left: 0;
+  }
 
-    .netflix_sign_logo {
-        width: 100%;
-        margin: 0;
+  .netflix_sign_logo {
+    width: 100%;
+    margin: 0;
 
-        background: black
-    }
+    background: black;
+  }
 
-    .form-group {
-        padding: 0 10px;
-        margin-bottom: 15px;
-    }
+  .form-group {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
 
-    .login-form {
-        background: #000000f2;
-    }
+  .login-form {
+    background: #000000f2;
+  }
 }
 
 @media only screen and (max-width: 576px) {
-    .login-form {
-        width: 100%;
-        border-radius: 10px;
-        background: #000000;
-    }
+  .login-form {
+    width: 100%;
+    border-radius: 10px;
+    background: #000000;
+  }
 
-    .form-group {
-        padding: 0 10px;
-        margin-bottom: 15px;
-    }
+  .form-group {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
 
-    .login_base_content {
-        padding: 10px;
-        margin-bottom: 15px;
-        color: #a9a8a8;
-        font-size: 14px;
-    }
-    .netflix_sign_logo img {
-        width: 180px;
-        cursor: pointer;
-    }
-    
-} 
+  .login_base_content {
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #a9a8a8;
+    font-size: 14px;
+  }
+  .netflix_sign_logo img {
+    width: 180px;
+    cursor: pointer;
+  }
+}
