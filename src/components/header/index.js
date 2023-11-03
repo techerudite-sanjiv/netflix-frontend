@@ -5,7 +5,7 @@ import { indexPattern } from '../../routes';
 import cn from "classnames"
 import styles from "./header.module.css"
 import SearchIcon from '../icon/SearchIcon';
-import poster from "../../assets/fridayNight.webp"
+import poster from "../../assets/jawan.webp"
 
 const Header = () => {
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Header = () => {
                 <nav className={cn(styles[""], "navbar navbar-expand-lg ")}>
                     <div className="container-fluid">
                         <div classNameName={cn(styles["netflix_sign_logo"])}>
-                            <img src={logo} alt="" onClick={() => navigate(indexPattern)} width={130} />
+                            <img src={logo} alt="" onClick={() => navigate(indexPattern)} width={180}/>
                         </div>
                         <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon "></span>

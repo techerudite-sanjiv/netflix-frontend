@@ -1,10 +1,11 @@
-
 import './App.css';
+import Login from './screens/signin';
 import HomePage from './screens/Home';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import MovieDashboard from './screens/Dashboard';
 import { browsePattern, indexPattern, loginPattern } from './routes';
 import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
-import Login from './screens/signin';
-import MovieDashboard from './screens/Dashboard';
 
 
 

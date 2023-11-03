@@ -1,13 +1,13 @@
-.netflix_sign_logo img {
-    width: 220px;
+/* .netflix_sign_logo img {
+    width: 180px;
     cursor: pointer;
-}
+} */
 
 .netflix_header {
     top: 0;
     width: 100vw;
     color: aliceblue;
-    padding: 0 100px;
+    padding: 0 50px;
     position: absolute;
     background: #00000076;
     box-shadow: 3px 5px 10px rgba(6, 6, 6, 0.184);

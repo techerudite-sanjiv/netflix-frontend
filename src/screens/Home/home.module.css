@@ -3,45 +3,16 @@
   height: 100vh;
 }
 
-.banner_content {
-  display: flex;
-  padding: 0 140px;
-  justify-content: space-between;
-}
-
 .banner_text {
   display: flex;
   padding-top: 30px;
   justify-content: space-between;
 }
 
-.netflix_logo img {
-  width: 180px;
-  cursor: pointer;
-}
-
 .netflix_text {
-  display: flex;
   gap: 5px;
-  padding-top: 30px;
-}
-
-.navbar_text_content {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 140px;
-}
-
-.navbar_text_content h1 {
-  font-size: 55px;
-  font-weight: 900;
-  color: #fff;
-}
-
-.navbar_text_content p {
-  color: #fff;
-  font-size: 25px;
+  padding-top: 30px;
 }
 
 .login_form {
@@ -51,7 +22,6 @@
 }
 
 .home_form_box {
-
   margin: auto;
   display: flex;
   gap: 10px;
@@ -74,29 +44,10 @@
   background: red;
 }
 
-.home_banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000000a0;
-}
-
 .highlight_text {
   padding: 0 20px;
 }
 
-
-@media only screen and (max-width: 992px) {
-  .netflix_logo img {
-    width: 150px;
-  }
-
-  .banner_content {
-    padding: 0 10px;
-  }
-}
 
 @media only screen and (max-width: 768px) {
   form {
@@ -118,52 +69,17 @@
     border-radius: 5px;
     padding: 2% 5%;
   }
-
-  .navbar_text_content {
-    margin-top: 100px;
-  }
-
-  .netflix_logo img {
-    width: 180px;
-  }
-
-  .banner_content {
-    padding: 0 10px;
-  }
-
-  .navbar_text_content h1 {
-    font-size: 35px;
-    font-weight: 900;
-    color: #fff;
-  }
-
-  .navbar_text_content p {
-    color: #fff;
-    font-size: 20px;
-  }
-
-  
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar_text_content {
-    margin-top: 100px;
-  }
-
-  .netflix_logo img {
-    width: 100px;
-  }
-
   .banner_text {
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
   }
-
 }
 
 @media only screen and (max-width: 576px) {
-
   form {
     width: 100%;
     margin: auto;

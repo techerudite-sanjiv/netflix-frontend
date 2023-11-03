@@ -1,0 +1,9 @@
+/* .movie-card{
+    display: flex;
+} */
+.movie-card img{
+    width: 250px;
+    height: 150px;
+    border-radius: 2px;
+    display: flex;
+}

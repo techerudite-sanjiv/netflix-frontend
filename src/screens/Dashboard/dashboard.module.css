@@ -1,0 +1,9 @@
+.dashboard-container{
+    background: #000;
+}
+.movie-card img{
+    width: 230px;
+    height: 150px;
+    border-radius: 2px;
+    display: flex;
+}
