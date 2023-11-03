@@ -8,6 +8,8 @@ import { browsePattern, indexPattern, loginPattern } from './routes';
 import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
 
 
+let data="njhgjhg"
+
 
 function App() {
   return (
